@@ -5,7 +5,7 @@ ENV ARTEMIS_BROKER_PORT=61616
 ENV ARTEMIS_BROKER_NAME=default
 ENV ARTEMIS_BROKER_USER=artemis
 ENV ARTEMIS_BROKER_PASSWORD=artemis
-ENV ARTEMIS_HTTP_HOST=127.0.0.1
+ENV ARTEMIS_HTTP_HOST=0.0.0.0
 ENV ARTEMIS_HTTP_PORT=8161
 # download Apache ActiveMQ Artemis and verify the file via gpg
 ADD https://downloads.apache.org/activemq/KEYS artemis-keys
